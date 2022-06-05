@@ -8,6 +8,7 @@
 import Foundation
 import CoreLocation
 
+//MARK: Requests User's location
 class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     var locationManager: CLLocationManager?
     

@@ -7,7 +7,7 @@
 
 import Foundation
 
-// Model of the response body we get from calling the OpenWeather API
+// Model of the response body we get from calling the OpenWeather APIs
 struct ResponseBody: Decodable {
     var coord: CoordinatesResponse
     var weather: [WeatherResponse]
@@ -47,3 +47,6 @@ extension ResponseBody.MainResponse {
     var tempMin: Double { return temp_min }
     var tempMax: Double { return temp_max }
 }
+
+
+

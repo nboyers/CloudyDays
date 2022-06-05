@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftUI
-
+// COLORS
 extension Color {
     public static var lightBlue: Color {
         return Color(UIColor(red: 9/255, green: 213/255, blue: 205/255, alpha: 1.0))
