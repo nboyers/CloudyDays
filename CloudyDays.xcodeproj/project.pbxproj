@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFCD0CBE284D17E9000FE350 /* CloudyDaysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD0CBD284D17E9000FE350 /* CloudyDaysApp.swift */; };
+		DFCD0CC0284D17E9000FE350 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD0CBF284D17E9000FE350 /* ContentView.swift */; };
+		DFCD0CC2284D17EA000FE350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCD0CC1284D17EA000FE350 /* Assets.xcassets */; };
+		DFCD0CC5284D17EA000FE350 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCD0CC4284D17EA000FE350 /* Preview Assets.xcassets */; };
+		DFCD0CCF284D17EA000FE350 /* CloudyDaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD0CCE284D17EA000FE350 /* CloudyDaysTests.swift */; };
+		DFCD0CD9284D17EA000FE350 /* CloudyDaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD0CD8284D17EA000FE350 /* CloudyDaysUITests.swift */; };
+		DFCD0CDB284D17EA000FE350 /* CloudyDaysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD0CDA284D17EA000FE350 /* CloudyDaysUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFCD0CCB284D17EA000FE350 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFCD0CB2284D17E9000FE350 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFCD0CB9284D17E9000FE350;
+			remoteInfo = CloudyDays;
+		};
+		DFCD0CD5284D17EA000FE350 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFCD0CB2284D17E9000FE350 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFCD0CB9284D17E9000FE350;
+			remoteInfo = CloudyDays;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFCD0CBA284D17E9000FE350 /* CloudyDays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudyDays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCD0CBD284D17E9000FE350 /* CloudyDaysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudyDaysApp.swift; sourceTree = "<group>"; };
+		DFCD0CBF284D17E9000FE350 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFCD0CC1284D17EA000FE350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFCD0CC4284D17EA000FE350 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFCD0CCA284D17EA000FE350 /* CloudyDaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudyDaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCD0CCE284D17EA000FE350 /* CloudyDaysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudyDaysTests.swift; sourceTree = "<group>"; };
+		DFCD0CD4284D17EA000FE350 /* CloudyDaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudyDaysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCD0CD8284D17EA000FE350 /* CloudyDaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudyDaysUITests.swift; sourceTree = "<group>"; };
+		DFCD0CDA284D17EA000FE350 /* CloudyDaysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudyDaysUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFCD0CB7284D17E9000FE350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCD0CC7284D17EA000FE350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCD0CD1284D17EA000FE350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFCD0CB1284D17E9000FE350 = {
+			isa = PBXGroup;
+			children = (
+				DFCD0CBC284D17E9000FE350 /* CloudyDays */,
+				DFCD0CCD284D17EA000FE350 /* CloudyDaysTests */,
+				DFCD0CD7284D17EA000FE350 /* CloudyDaysUITests */,
+				DFCD0CBB284D17E9000FE350 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFCD0CBB284D17E9000FE350 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD0CBA284D17E9000FE350 /* CloudyDays.app */,
+				DFCD0CCA284D17EA000FE350 /* CloudyDaysTests.xctest */,
+				DFCD0CD4284D17EA000FE350 /* CloudyDaysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFCD0CBC284D17E9000FE350 /* CloudyDays */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD0CBD284D17E9000FE350 /* CloudyDaysApp.swift */,
+				DFCD0CBF284D17E9000FE350 /* ContentView.swift */,
+				DFCD0CC1284D17EA000FE350 /* Assets.xcassets */,
+				DFCD0CC3284D17EA000FE350 /* Preview Content */,
+			);
+			path = CloudyDays;
+			sourceTree = "<group>";
+		};
+		DFCD0CC3284D17EA000FE350 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD0CC4284D17EA000FE350 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFCD0CCD284D17EA000FE350 /* CloudyDaysTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD0CCE284D17EA000FE350 /* CloudyDaysTests.swift */,
+			);
+			path = CloudyDaysTests;
+			sourceTree = "<group>";
+		};
+		DFCD0CD7284D17EA000FE350 /* CloudyDaysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD0CD8284D17EA000FE350 /* CloudyDaysUITests.swift */,
+				DFCD0CDA284D17EA000FE350 /* CloudyDaysUITestsLaunchTests.swift */,
+			);
+			path = CloudyDaysUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFCD0CB9284D17E9000FE350 /* CloudyDays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFCD0CDE284D17EA000FE350 /* Build configuration list for PBXNativeTarget "CloudyDays" */;
+			buildPhases = (
+				DFCD0CB6284D17E9000FE350 /* Sources */,
+				DFCD0CB7284D17E9000FE350 /* Frameworks */,
+				DFCD0CB8284D17E9000FE350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudyDays;
+			productName = CloudyDays;
+			productReference = DFCD0CBA284D17E9000FE350 /* CloudyDays.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFCD0CC9284D17EA000FE350 /* CloudyDaysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFCD0CE1284D17EA000FE350 /* Build configuration list for PBXNativeTarget "CloudyDaysTests" */;
+			buildPhases = (
+				DFCD0CC6284D17EA000FE350 /* Sources */,
+				DFCD0CC7284D17EA000FE350 /* Frameworks */,
+				DFCD0CC8284D17EA000FE350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFCD0CCC284D17EA000FE350 /* PBXTargetDependency */,
+			);
+			name = CloudyDaysTests;
+			productName = CloudyDaysTests;
+			productReference = DFCD0CCA284D17EA000FE350 /* CloudyDaysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFCD0CD3284D17EA000FE350 /* CloudyDaysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFCD0CE4284D17EA000FE350 /* Build configuration list for PBXNativeTarget "CloudyDaysUITests" */;
+			buildPhases = (
+				DFCD0CD0284D17EA000FE350 /* Sources */,
+				DFCD0CD1284D17EA000FE350 /* Frameworks */,
+				DFCD0CD2284D17EA000FE350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFCD0CD6284D17EA000FE350 /* PBXTargetDependency */,
+			);
+			name = CloudyDaysUITests;
+			productName = CloudyDaysUITests;
+			productReference = DFCD0CD4284D17EA000FE350 /* CloudyDaysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFCD0CB2284D17E9000FE350 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DFCD0CB9284D17E9000FE350 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DFCD0CC9284D17EA000FE350 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DFCD0CB9284D17E9000FE350;
+					};
+					DFCD0CD3284D17EA000FE350 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DFCD0CB9284D17E9000FE350;
+					};
+				};
+			};
+			buildConfigurationList = DFCD0CB5284D17E9000FE350 /* Build configuration list for PBXProject "CloudyDays" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFCD0CB1284D17E9000FE350;
+			productRefGroup = DFCD0CBB284D17E9000FE350 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFCD0CB9284D17E9000FE350 /* CloudyDays */,
+				DFCD0CC9284D17EA000FE350 /* CloudyDaysTests */,
+				DFCD0CD3284D17EA000FE350 /* CloudyDaysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFCD0CB8284D17E9000FE350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCD0CC5284D17EA000FE350 /* Preview Assets.xcassets in Resources */,
+				DFCD0CC2284D17EA000FE350 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCD0CC8284D17EA000FE350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCD0CD2284D17EA000FE350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFCD0CB6284D17E9000FE350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCD0CC0284D17E9000FE350 /* ContentView.swift in Sources */,
+				DFCD0CBE284D17E9000FE350 /* CloudyDaysApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCD0CC6284D17EA000FE350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCD0CCF284D17EA000FE350 /* CloudyDaysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCD0CD0284D17EA000FE350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCD0CD9284D17EA000FE350 /* CloudyDaysUITests.swift in Sources */,
+				DFCD0CDB284D17EA000FE350 /* CloudyDaysUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFCD0CCC284D17EA000FE350 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFCD0CB9284D17E9000FE350 /* CloudyDays */;
+			targetProxy = DFCD0CCB284D17EA000FE350 /* PBXContainerItemProxy */;
+		};
+		DFCD0CD6284D17EA000FE350 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFCD0CB9284D17E9000FE350 /* CloudyDays */;
+			targetProxy = DFCD0CD5284D17EA000FE350 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DFCD0CDC284D17EA000FE350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFCD0CDD284D17EA000FE350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFCD0CDF284D17EA000FE350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CloudyDays/Preview Content\"";
+				DEVELOPMENT_TEAM = JCL982F3T2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobosoftware.CloudyDays;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFCD0CE0284D17EA000FE350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CloudyDays/Preview Content\"";
+				DEVELOPMENT_TEAM = JCL982F3T2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobosoftware.CloudyDays;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFCD0CE2284D17EA000FE350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCL982F3T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobosoftware.CloudyDaysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudyDays.app/CloudyDays";
+			};
+			name = Debug;
+		};
+		DFCD0CE3284D17EA000FE350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCL982F3T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobosoftware.CloudyDaysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudyDays.app/CloudyDays";
+			};
+			name = Release;
+		};
+		DFCD0CE5284D17EA000FE350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCL982F3T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobosoftware.CloudyDaysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudyDays;
+			};
+			name = Debug;
+		};
+		DFCD0CE6284D17EA000FE350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCL982F3T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobosoftware.CloudyDaysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudyDays;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFCD0CB5284D17E9000FE350 /* Build configuration list for PBXProject "CloudyDays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCD0CDC284D17EA000FE350 /* Debug */,
+				DFCD0CDD284D17EA000FE350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFCD0CDE284D17EA000FE350 /* Build configuration list for PBXNativeTarget "CloudyDays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCD0CDF284D17EA000FE350 /* Debug */,
+				DFCD0CE0284D17EA000FE350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFCD0CE1284D17EA000FE350 /* Build configuration list for PBXNativeTarget "CloudyDaysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCD0CE2284D17EA000FE350 /* Debug */,
+				DFCD0CE3284D17EA000FE350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFCD0CE4284D17EA000FE350 /* Build configuration list for PBXNativeTarget "CloudyDaysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCD0CE5284D17EA000FE350 /* Debug */,
+				DFCD0CE6284D17EA000FE350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFCD0CB2284D17E9000FE350 /* Project object */;
+}
