@@ -14,6 +14,11 @@
 		DFCD0CCF284D17EA000FE350 /* CloudyDaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD0CCE284D17EA000FE350 /* CloudyDaysTests.swift */; };
 		DFCD0CD9284D17EA000FE350 /* CloudyDaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD0CD8284D17EA000FE350 /* CloudyDaysUITests.swift */; };
 		DFCD0CDB284D17EA000FE350 /* CloudyDaysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD0CDA284D17EA000FE350 /* CloudyDaysUITestsLaunchTests.swift */; };
+		DFCD0CE9284D1B89000FE350 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD0CE8284D1B89000FE350 /* LocationManager.swift */; };
+		DFCD0CEE284D34A7000FE350 /* Color+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD0CED284D34A7000FE350 /* Color+extensions.swift */; };
+		DFCD0CF0284D43F9000FE350 /* GlassMorphicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD0CEF284D43F9000FE350 /* GlassMorphicView.swift */; };
+		DFCD0CF3284D573C000FE350 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD0CF2284D573C000FE350 /* WeatherService.swift */; };
+		DFCD0CF6284D611E000FE350 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD0CF5284D611E000FE350 /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		DFCD0CD4284D17EA000FE350 /* CloudyDaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudyDaysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCD0CD8284D17EA000FE350 /* CloudyDaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudyDaysUITests.swift; sourceTree = "<group>"; };
 		DFCD0CDA284D17EA000FE350 /* CloudyDaysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudyDaysUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DFCD0CE8284D1B89000FE350 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		DFCD0CED284D34A7000FE350 /* Color+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extensions.swift"; sourceTree = "<group>"; };
+		DFCD0CEF284D43F9000FE350 /* GlassMorphicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassMorphicView.swift; sourceTree = "<group>"; };
+		DFCD0CF2284D573C000FE350 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		DFCD0CF5284D611E000FE350 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,7 @@
 		DFCD0CB1284D17E9000FE350 = {
 			isa = PBXGroup;
 			children = (
+				DFCD0CBD284D17E9000FE350 /* CloudyDaysApp.swift */,
 				DFCD0CBC284D17E9000FE350 /* CloudyDays */,
 				DFCD0CCD284D17EA000FE350 /* CloudyDaysTests */,
 				DFCD0CD7284D17EA000FE350 /* CloudyDaysUITests */,
@@ -94,8 +105,10 @@
 		DFCD0CBC284D17E9000FE350 /* CloudyDays */ = {
 			isa = PBXGroup;
 			children = (
-				DFCD0CBD284D17E9000FE350 /* CloudyDaysApp.swift */,
-				DFCD0CBF284D17E9000FE350 /* ContentView.swift */,
+				DFCD0CF1284D56C7000FE350 /* Extensions */,
+				DFCD0CF4284D57D6000FE350 /* Model */,
+				DFCD0CE7284D194D000FE350 /* Managers */,
+				DFCD0CEA284D1D3E000FE350 /* Views */,
 				DFCD0CC1284D17EA000FE350 /* Assets.xcassets */,
 				DFCD0CC3284D17EA000FE350 /* Preview Content */,
 			);
@@ -125,6 +138,40 @@
 				DFCD0CDA284D17EA000FE350 /* CloudyDaysUITestsLaunchTests.swift */,
 			);
 			path = CloudyDaysUITests;
+			sourceTree = "<group>";
+		};
+		DFCD0CE7284D194D000FE350 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD0CE8284D1B89000FE350 /* LocationManager.swift */,
+				DFCD0CF5284D611E000FE350 /* WeatherManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DFCD0CEA284D1D3E000FE350 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD0CBF284D17E9000FE350 /* ContentView.swift */,
+				DFCD0CEF284D43F9000FE350 /* GlassMorphicView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DFCD0CF1284D56C7000FE350 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD0CED284D34A7000FE350 /* Color+extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DFCD0CF4284D57D6000FE350 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD0CF2284D573C000FE350 /* WeatherService.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFCD0CF0284D43F9000FE350 /* GlassMorphicView.swift in Sources */,
 				DFCD0CC0284D17E9000FE350 /* ContentView.swift in Sources */,
 				DFCD0CBE284D17E9000FE350 /* CloudyDaysApp.swift in Sources */,
+				DFCD0CF6284D611E000FE350 /* WeatherManager.swift in Sources */,
+				DFCD0CE9284D1B89000FE350 /* LocationManager.swift in Sources */,
+				DFCD0CF3284D573C000FE350 /* WeatherService.swift in Sources */,
+				DFCD0CEE284D34A7000FE350 /* Color+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +472,13 @@
 				DEVELOPMENT_TEAM = JCL982F3T2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Cloudy Days uses your location to give you weather updates.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -434,7 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,11 +503,13 @@
 				DEVELOPMENT_TEAM = JCL982F3T2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Cloudy Days uses your location to give you weather updates.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,7 +519,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

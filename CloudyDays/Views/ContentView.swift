@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import CoreLocationUI
 
 struct ContentView: View {
+    
+    @StateObject var location = LocationManager()
     var body: some View {
         ZStack {
             LinearGradient(colors: [Color.backgroundSecondary ,Color.backgroundPrimary], startPoint: .top, endPoint: .bottom)
@@ -90,8 +93,12 @@ struct ContentView: View {
             .foregroundColor(.white)
             .multilineTextAlignment(.center)
             .padding()
+        }.onAppear {
+            location.checkIfLocationServicesIsEnabled()
+            
         }
     }
+    
     func getAttributedString() -> AttributedString {
         var attStr = AttributedString("Start Now and get the \n local weather instantly")
         attStr.foregroundColor = .gray
